@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pranshu Ghori – Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Hi, I’m Pranshu Ghori 👋</h1>
-    <p>Tech enthusiast | IT Support | Web Developer | Excel Automator</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranshu Ghori – Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-900 text-white font-sans leading-relaxed">
+    <!-- Hero -->
+    <section class="min-h-screen flex flex-col items-center justify-center px-4">
+      <h1 class="text-4xl md:text-6xl font-bold text-center mb-4">
+        Hi, I’m Pranshu Ghori 👋
+      </h1>
+      <p class="text-gray-400 text-center text-lg max-w-xl">
+        Tech enthusiast | IT Support | Web Developer | Excel Automator
+      </p>
+      <div class="mt-6 flex space-x-4">
+        <a href="mailto:pghori1@asu.edu" class="text-blue-400 hover:underline">Email</a>
+        <a href="https://linkedin.com/in/pranshughori" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a>
+        <a href="Pranshu_Ghori_Resume.pdf" class="text-blue-400 hover:underline">Resume</a>
+      </div>
+    </section>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <!-- About -->
+    <section class="max-w-4xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold mb-4 border-b border-gray-700 pb-2">About Me</h2>
+      <p class="text-gray-300">
+        I'm a Computer Information Systems student at ASU with hands-on experience in web development, IT support, and Excel automation. Passionate about building efficient solutions that help people and businesses thrive.
+      </p>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm a Computer Information Systems student at ASU with hands-on experience in web development, IT support, and Excel automation. I'm passionate about building efficient solutions that help people and businesses thrive.</p>
-  </section>
+    <!-- Projects -->
+    <section class="max-w-4xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold mb-4 border-b border-gray-700 pb-2">Projects</h2>
+      <div class="space-y-8">
+        <div>
+          <h3 class="text-xl font-semibold text-blue-400">Advanced Excel Inventory Automation</h3>
+          <p class="text-gray-400">
+            Built Excel automation for 500+ SKUs, reducing overhead by 20% and manual entry by 70%.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-blue-400">WordPress Website Revamp</h3>
+          <p class="text-gray-400">
+            Redesigned and optimized the Global HyPT Center site at ASU, improving accessibility and user experience.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Advanced Excel Inventory Automation</h3>
-      <p>Built Excel-based inventory automation for 500+ SKUs, reducing overhead by 20% and manual entry by 70%.</p>
-    </div>
-    <div class="project">
-      <h3>WordPress Website Revamp</h3>
-      <p>Redesigned and optimized the Global HyPT Center site at ASU, improving accessibility and user experience.</p>
-    </div>
-  </section>
+    <!-- Contact -->
+    <section class="max-w-4xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold mb-4 border-b border-gray-700 pb-2">Get in Touch</h2>
+      <p class="text-gray-300 mb-4">Email me at <a href="mailto:pghori1@asu.edu" class="text-blue-400 hover:underline">pghori1@asu.edu</a></p>
+      <p class="text-gray-300">Or connect on <a href="https://linkedin.com/in/pranshughori" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a></p>
+    </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <p>Download my resume: <a href="Pranshu_Ghori_Resume.pdf" target="_blank">Pranshu_Ghori_Resume.pdf</a></p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:pghori1@asu.edu">pghori1@asu.edu</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/pranshughori" target="_blank">linkedin.com/in/pranshughori</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Pranshu Ghori. All rights reserved.</p>
-  </footer>
-</body>
+    <footer class="text-center text-sm text-gray-600 pb-6">
+      © 2025 Pranshu Ghori. All rights reserved.
+    </footer>
+  </body>
 </html>
